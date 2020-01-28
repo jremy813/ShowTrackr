@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+  width: 100%;
+  text-align: left;
+}
+
+.hide {
+  display: none;
+}
+
+span {
+  color: #540cfa;
+}
+
+#getstartedbtn {
+  background: #540cfa;
+  color: white;
+  height: 32px;
+  width: 102px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  margin-top: 5px;
+}
+
+#getstartedbtn:hover {
+  background-color: #540cfa;
+  box-shadow: 0px 15px 20px rgba(80, 45, 233, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+hr {
+  opacity: 0.5;
+}
+
+#section1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#cta {
+  padding: 1rem;
+  padding-top: 1rem;
+  line-height: 1.6;
+}
+
+#cta h1 {
+  margin-bottom: 1rem;
+}
+
+#cta p,
+input {
+  margin-bottom: 2rem;
+}
+
+#emailcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#cta button {
+  background: #540cfa;
+  color: white;
+  height: 53px;
+  border: none;
+  font-weight: 700;
+  transition: all 0.3s ease 0s;
+}
+
+#cta input {
+  height: 53px;
+  padding-left: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #540cfa;
+}
+
+#imgcontainer {
+  background: url(/assets/bgmobile1.svg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 500px;
+  background-position: 150px 10px;
+  width: 100%;
+}
+
+.iphone {
+  z-index: 3;
+  margin-left: -2rem;
+  width: 400px;
+  height: auto;
+  padding-left: 0.9rem;
+}
+
+#section2 {
+  padding: 1rem;
+}
+
+#section2 p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#section2 h1 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+#sec2icons p,
+h2 {
+  margin-bottom: 2rem;
+}
+
+#sec2icons img {
+  margin-top: 1.5rem;
+}
+
+#sec2icons a {
+  text-decoration: none;
+  color: #540cfa;
+}
+
+#section3 {
+  height: 264.51px;
+  background: url(/assets/shows.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex img {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+#section4 h1,
+p,
+img {
+  margin-bottom: 2rem;
+}
+
+#sec4info {
+  padding-left: 1rem;
+}
