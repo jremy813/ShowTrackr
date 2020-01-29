@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -37,13 +41,21 @@ span {
   background-color: #540cfa;
   box-shadow: 0px 15px 20px rgba(80, 45, 233, 0.4);
   color: #fff;
-  transform: translateY(-7px);
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+}
+
+.header a {
+  text-decoration: none;
+  color: #333;
+}
+
+.header a:hover {
+  color: #540cfa;
 }
 
 hr {
