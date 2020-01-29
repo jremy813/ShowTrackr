@@ -70,7 +70,7 @@ input {
   margin-bottom: 2rem;
 }
 
-#emailcontainer {
+.emailcontainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -81,7 +81,6 @@ input {
   height: 53px;
   border: none;
   font-weight: 700;
-  transition: all 0.3s ease 0s;
 }
 
 #cta input {
@@ -90,6 +89,7 @@ input {
   border-style: solid;
   border-width: 1px;
   border-color: #540cfa;
+  border-radius: 0;
 }
 
 #imgcontainer {
@@ -157,11 +157,223 @@ h2 {
 }
 
 #section4 h1,
-p,
 img {
+  margin-bottom: 2rem;
+}
+
+#section4 p {
   margin-bottom: 2rem;
 }
 
 #sec4info {
   padding-left: 1rem;
+}
+
+#section5 {
+  background-color: #000000;
+  color: lightgrey;
+  margin-bottom: 2rem;
+}
+
+#section5 h1 {
+  color: #fff;
+}
+
+#section5 {
+  padding: 1rem;
+}
+
+#section5 p,
+h1 {
+  margin-bottom: 2rem;
+}
+
+#section5 button {
+  background: #540cfa;
+  color: white;
+  width: 216px;
+  height: 42px;
+  border: none;
+  font-weight: 700;
+}
+
+#section6 {
+  padding: 1rem;
+  text-align: center;
+}
+
+#section6 button {
+  background: #540cfa;
+  color: white;
+  height: 53px;
+  border: none;
+  font-weight: 700;
+}
+
+#section6 input {
+  height: 53px;
+  padding-left: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #540cfa;
+  border-radius: 0;
+}
+
+#section6 p {
+  padding-bottom: 2rem;
+}
+
+footer {
+  text-align: center;
+}
+
+/*  650px mediaq */
+
+@media only screen and (min-width: 650px) {
+  .container {
+    text-align: center;
+  }
+  #cta h1 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  #cta p {
+    font-size: 1.2rem;
+  }
+
+  #cta .emailcontainer {
+    padding-bottom: 1rem;
+  }
+
+  #imgcontainer {
+    text-align: center;
+  }
+
+  .flex {
+    margin-left: 175px;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  #section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #cta {
+    margin-top: 3rem;
+  }
+
+  #cta .emailcontainer {
+    margin-bottom: 2rem;
+  }
+
+  #sec2icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+  }
+
+  #sec2info {
+    margin-bottom: 3rem;
+  }
+
+  #sec2info h1 {
+    font-size: 3rem;
+  }
+
+  #section2 {
+    margin-bottom: 5rem;
+  }
+
+  #section4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+  }
+
+  #sec4phone {
+    margin-left: 2rem;
+    text-align: center;
+  }
+
+  .flex {
+    margin-left: 15px;
+  }
+
+  #sec4info {
+    margin-top: 2rem;
+    margin-left: 8rem;
+  }
+
+  #sec4info h1 {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+  }
+
+  #section6 {
+    height: 90vh;
+  }
+
+  #sec6info {
+    margin: auto;
+    width: 80%;
+    padding: 1rem;
+    margin-top: 100px;
+  }
+
+  #sec6info h1 {
+    font-size: 2.5rem;
+  }
+
+  #sec6info p {
+    font-size: 1rem;
+    line-height: 1.9;
+  }
+
+  #sec6info .emailcontainer {
+    margin: auto;
+    width: 75%;
+  }
+
+  #section5 {
+    padding: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1257px) {
+  #section1 #imgcontainer {
+    text-align: center;
+    background-position: 250px -300px;
+    background-size: 800px;
+    padding-top: 2rem;
+  }
+
+  #section1 #cta {
+    padding-top: 2rem;
+    margin-left: 5rem;
+  }
+
+  header h1,
+  nav {
+    margin-bottom: 0;
+  }
+
+  .hide {
+    display: inline-block;
+    padding-left: 2rem;
+    margin-top: 10px;
+    font-weight: 400;
+  }
+
+  header nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+  }
+
+  header nav button {
+    margin-left: 8rem;
+  }
 }
