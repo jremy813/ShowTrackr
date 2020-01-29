@@ -342,6 +342,8 @@ footer {
   }
 }
 
+/* mediaq for larger screens */
+
 @media only screen and (min-width: 1257px) {
   #section1 #imgcontainer {
     text-align: center;
@@ -375,5 +377,15 @@ footer {
 
   header nav button {
     margin-left: 8rem;
+  }
+}
+
+@media only screen and (min-width: 1376px) {
+  #section3 {
+    width: 100%;
+    background: url(/assets/shows.svg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
 }
