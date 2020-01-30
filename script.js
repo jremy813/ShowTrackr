@@ -1,4 +1,4 @@
-//Scripts
+//Animation
 gsap.from("header", { duration: 0.9, ease: "bounce", y: -60 });
 gsap.from("#cta", {
   duration: 0.9,
@@ -7,3 +7,5 @@ gsap.from("#cta", {
   y: -40,
   delay: 1
 });
+
+//log in validation
